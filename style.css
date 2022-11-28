@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;  
+    font-family: 'Overpass', sans-serif;
+    font-size: 0.9375rem;
+    color: hsl(217, 12%, 63%);
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    background: hsl(216, 12%, 8%);
+}
+
+main {
+    background-image: linear-gradient(hsl(250, 20%, 18%) , hsl(210, 33%, 12%));
+    border-radius: 20px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+}
+
+#rating-form {
+    display: none;
+}
+
+#thank-you {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.thank-you-image {
+    margin-bottom: 20px;
+}
+
+.dark-blue-radius {
+    background: hsl(213, 19%, 18%);
+    border-radius: 100vh;
+}
+
+.star {
+    padding: 10px;
+}
+
+.text {   
+    padding: 5px 10px;
+    color:hsl(25, 97%, 53%);
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    margin: 0.75em 0;
+    font-size: 1.75em;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+.choices {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 0;
+}
+
+input[type="radio"] {
+    appearance: none;
+}
+
+.circle-radio {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 400;
+    height: 1em;
+    width: 1em;
+    text-align: center;
+    padding: 1em;
+}
+
+.circle-radio:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.circle-radio:focus-within {
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+}
+
+#button {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    padding: 1em;
+    width: 100%;
+    border-radius: 100vh;
+    border: none;
+    text-transform: uppercase;
+}
+
+#button:hover {
+    background-color:hsl(0, 0%, 100%);
+    color:hsl(25, 97%, 53%);
+    cursor: pointer;
+}
